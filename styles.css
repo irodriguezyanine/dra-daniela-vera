@@ -9,7 +9,7 @@
   --line: #e3eaed;
   --shadow: 0 20px 50px rgba(17, 32, 43, 0.08);
   --tooth-tile: url("assets/diente-feliz.png");
-  --tooth-tile-size: 160px;
+  --tooth-tile-size: 140px;
 }
 
 *,
@@ -289,7 +289,7 @@ h2 {
   background-size: var(--tooth-tile-size);
   background-repeat: repeat;
   background-position: 0 0;
-  opacity: 0.24;
+  opacity: 1;
   pointer-events: none;
   z-index: 0;
   animation: tooth-drift 28s linear infinite;
