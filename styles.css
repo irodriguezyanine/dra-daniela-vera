@@ -9,7 +9,7 @@
   --line: #e3eaed;
   --shadow: 0 20px 50px rgba(17, 32, 43, 0.08);
   --tooth-tile: url("assets/diente.png");
-  --tooth-tile-size: 220px;
+  --tooth-tile-size: 180px;
 }
 
 *,
@@ -116,7 +116,7 @@ img {
   background-size: var(--tooth-tile-size);
   background-repeat: repeat;
   background-position: 0 0;
-  opacity: 0.08;
+  opacity: 0.18;
   pointer-events: none;
   z-index: 0;
 }
