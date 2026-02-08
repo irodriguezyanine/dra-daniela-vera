@@ -94,12 +94,16 @@ img {
   border-bottom: 1px solid var(--line);
 }
 
+.site-header .container {
+  width: min(1120px, 97%);
+}
+
 .header-content {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 8px 0;
-  gap: 24px;
+  padding: 4px 0;
+  gap: 16px;
 }
 
 .brand {
@@ -110,9 +114,9 @@ img {
 
 .brand-logo {
   display: block;
-  height: 288px;
+  height: 72px;
   width: auto;
-  max-width: 1680px;
+  max-width: 420px;
   object-fit: contain;
   object-position: left center;
 }
@@ -129,8 +133,8 @@ img {
 
 @media (max-width: 768px) {
   .brand-logo {
-    height: 240px;
-    max-width: 1200px;
+    height: 64px;
+    max-width: 360px;
   }
 }
 
