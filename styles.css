@@ -103,11 +103,25 @@ img {
 }
 
 .brand {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
+  display: block;
   text-decoration: none;
   color: inherit;
+}
+
+.brand-logo {
+  display: block;
+  height: 48px;
+  width: auto;
+  max-width: 280px;
+  object-fit: contain;
+  object-position: left center;
+}
+
+@media (max-width: 768px) {
+  .brand-logo {
+    height: 40px;
+    max-width: 200px;
+  }
 }
 
 .brand-title {
