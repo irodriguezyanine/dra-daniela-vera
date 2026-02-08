@@ -1,0 +1,13 @@
+Para que se vea el logo y el favicon en la página, agrega estos dos archivos en esta carpeta (assets):
+
+1. logo-dra-daniela-vera.png
+   - Es la imagen del logo completo (texto "DRA. DANIELA VERA OSORIO" + símbolo corazón/diente).
+   - Guárdala o renómbrala exactamente como: logo-dra-daniela-vera.png
+
+2. favicon.png
+   - Es el icono corto (diente con swirl y estrellas) para la pestaña del navegador.
+   - Guárdala o renómbrala exactamente como: favicon.png
+
+Coloca ambos archivos dentro de la carpeta "assets" y vuelve a desplegar en Vercel (o recarga la página si estás en local).
+
+Mientras no existan esos archivos, el sitio mostrará el texto "Dra. Daniela Vera Osorio" y "Cirujana Dentista" en lugar del logo.

@@ -28,7 +28,11 @@
     <header class="site-header">
       <div class="container header-content">
         <a class="brand" href="index.html">
-          <img src="assets/logo-dra-daniela-vera.png" alt="Dra. Daniela Vera Osorio - Cirujana Dentista" class="brand-logo" />
+          <img src="assets/logo-dra-daniela-vera.png" alt="Dra. Daniela Vera Osorio - Cirujana Dentista" class="brand-logo" onerror="this.style.display='none';this.nextElementSibling.classList.add('brand-fallback--show');" />
+          <span class="brand-fallback">
+            <span class="brand-title">Dra. Daniela Vera Osorio</span>
+            <span class="brand-subtitle">Cirujana Dentista</span>
+          </span>
         </a>
         <nav class="nav-links">
           <a href="index.html">Inicio</a>
