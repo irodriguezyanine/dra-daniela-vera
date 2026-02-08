@@ -98,7 +98,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 18px 0;
+  padding: 8px 0;
   gap: 24px;
 }
 
@@ -110,9 +110,9 @@ img {
 
 .brand-logo {
   display: block;
-  height: 144px;
+  height: 288px;
   width: auto;
-  max-width: 840px;
+  max-width: 1680px;
   object-fit: contain;
   object-position: left center;
 }
@@ -129,8 +129,8 @@ img {
 
 @media (max-width: 768px) {
   .brand-logo {
-    height: 120px;
-    max-width: 600px;
+    height: 240px;
+    max-width: 1200px;
   }
 }
 
