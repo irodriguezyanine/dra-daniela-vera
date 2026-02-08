@@ -104,12 +104,14 @@ img {
   justify-content: space-between;
   padding: 4px 0;
   gap: 16px;
+  overflow: visible;
 }
 
 .brand {
   display: block;
   text-decoration: none;
   color: inherit;
+  align-self: center;
 }
 
 .brand-logo {
@@ -119,6 +121,8 @@ img {
   max-width: 420px;
   object-fit: contain;
   object-position: left center;
+  transform: scale(2.5);
+  transform-origin: left center;
 }
 
 .brand-fallback {
@@ -135,6 +139,8 @@ img {
   .brand-logo {
     height: 64px;
     max-width: 360px;
+    transform: scale(2.5);
+    transform-origin: left center;
   }
 }
 
