@@ -11,3 +11,16 @@ Para que se vea el logo y el favicon en la página, agrega estos dos archivos en
 Coloca ambos archivos dentro de la carpeta "assets" y vuelve a desplegar en Vercel (o recarga la página si estás en local).
 
 Mientras no existan esos archivos, el sitio mostrará el texto "Dra. Daniela Vera Osorio" y "Cirujana Dentista" en lugar del logo.
+
+---
+
+MÉTODOS DE PAGO (cuadritos en la sección "Métodos de pago"):
+
+En la misma carpeta "assets", agrega estas cuatro imágenes con exactamente estos nombres:
+
+- efectivo.png   (icono de efectivo / manos con billete)
+- visa.png      (logo VISA)
+- mastercard.png (logo Mastercard)
+- redcompra.png (logo Red compra)
+
+Guárdalas o renómbralas con esos nombres para que aparezcan los cuadritos en la página.

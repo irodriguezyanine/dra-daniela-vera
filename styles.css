@@ -726,6 +726,64 @@ h2 {
   border-bottom: none;
 }
 
+/* Métodos de pago */
+.payment-intro {
+  color: var(--slate);
+  margin: 0 0 12px;
+}
+
+.payment-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 24px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 24px;
+}
+
+.payment-list li {
+  position: relative;
+  padding-left: 1.2em;
+}
+
+.payment-list li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+}
+
+.payment-icons {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 20px;
+  max-width: 560px;
+}
+
+.payment-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 16px 12px;
+  background: var(--white);
+  border-radius: 14px;
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow);
+}
+
+.payment-icon img {
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+}
+
+.payment-icon span {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--slate);
+}
+
 .section-cta {
   background: linear-gradient(180deg, var(--muted) 0%, var(--white) 100%);
 }
