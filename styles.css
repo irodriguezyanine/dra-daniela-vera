@@ -6,6 +6,8 @@
   --muted: #f4f7f8;
   --accent: #76b8b1;
   --accent-dark: #4a8f88;
+  --calipso: #1a7a8f;
+  --calipso-light: #2e96ad;
   --line: #e3eaed;
   --shadow: 0 20px 50px rgba(17, 32, 43, 0.08);
   --tooth-tile: url("assets/diente-feliz.png");
@@ -42,6 +44,45 @@ img {
   margin: 0 auto;
 }
 
+/* Barra superior de contacto */
+.top-bar {
+  background: var(--accent);
+  color: var(--white);
+  font-size: 0.875rem;
+  padding: 8px 0;
+}
+
+.top-bar a {
+  color: var(--white);
+  text-decoration: none;
+  transition: opacity 0.2s ease;
+}
+
+.top-bar a:hover {
+  opacity: 0.9;
+  text-decoration: underline;
+}
+
+.top-bar-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px 24px;
+}
+
+@media (max-width: 768px) {
+  .top-bar {
+    font-size: 0.8rem;
+    padding: 6px 0;
+  }
+
+  .top-bar-content {
+    justify-content: center;
+    text-align: center;
+  }
+}
+
 .site-header {
   position: sticky;
   top: 0;
@@ -69,12 +110,13 @@ img {
 
 .brand-title {
   font-weight: 600;
-  font-size: 1.35rem;
+  font-size: 1.6rem;
+  color: var(--calipso);
 }
 
 .brand-subtitle {
-  font-size: 1.05rem;
-  color: var(--slate);
+  font-size: 1.2rem;
+  color: var(--calipso-light);
 }
 
 .nav-links {
