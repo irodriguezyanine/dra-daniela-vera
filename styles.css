@@ -781,9 +781,9 @@ h2 {
 }
 
 .payment-logos img {
-  height: 40px;
+  height: 160px;
   width: auto;
-  max-width: 72px;
+  max-width: 288px;
   object-fit: contain;
   opacity: 0.92;
 }
