@@ -551,7 +551,72 @@ h2 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 48px;
-  align-items: center;
+  align-items: start;
+}
+
+.about-intro {
+  color: var(--slate);
+  margin-bottom: 28px;
+  line-height: 1.65;
+}
+
+.studies-title {
+  font-size: 1.15rem;
+  color: var(--ink);
+  margin: 0 0 16px;
+  font-weight: 600;
+}
+
+.studies-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 14px;
+  margin-bottom: 24px;
+}
+
+.study-card {
+  background: var(--white);
+  border-radius: 14px;
+  border: 1px solid var(--line);
+  padding: 16px 18px;
+  position: relative;
+  transition: transform 0.22s ease, box-shadow 0.22s ease, border-color 0.2s ease;
+  box-shadow: 0 2px 8px rgba(17, 32, 43, 0.04);
+}
+
+.study-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 28px rgba(17, 32, 43, 0.1);
+  border-color: rgba(74, 143, 136, 0.35);
+}
+
+.study-year {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--accent-dark);
+  background: #e8f3f2;
+  padding: 4px 10px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  letter-spacing: 0.02em;
+}
+
+.study-card p {
+  margin: 0;
+  font-size: 0.95rem;
+  color: var(--slate);
+  line-height: 1.5;
+}
+
+.study-card--ongoing {
+  border-left: 3px solid var(--accent);
+  background: linear-gradient(135deg, #fafcfc 0%, #f4f9f8 100%);
+}
+
+.study-card--ongoing .study-year {
+  background: rgba(74, 143, 136, 0.15);
+  color: var(--accent-dark);
 }
 
 .image-frame {
