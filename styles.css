@@ -110,9 +110,9 @@ img {
 
 .brand-logo {
   display: block;
-  height: 48px;
+  height: 144px;
   width: auto;
-  max-width: 280px;
+  max-width: 840px;
   object-fit: contain;
   object-position: left center;
 }
@@ -129,8 +129,8 @@ img {
 
 @media (max-width: 768px) {
   .brand-logo {
-    height: 40px;
-    max-width: 200px;
+    height: 120px;
+    max-width: 600px;
   }
 }
 
