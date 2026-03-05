@@ -580,6 +580,14 @@ h2 {
   object-fit: contain;
 }
 
+.gallery-image--no-black-borders {
+  overflow: hidden;
+}
+
+.gallery-image--no-black-borders img {
+  clip-path: inset(5% 0 5% 0);
+}
+
 .gallery-image--centered {
   display: flex;
   align-items: center;
