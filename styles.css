@@ -102,7 +102,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 4px 0;
+  padding: 8px 0;
   gap: 16px;
   overflow: visible;
 }
@@ -112,13 +112,15 @@ img {
   text-decoration: none;
   color: inherit;
   align-self: center;
+  max-height: 80px;
+  overflow: hidden;
 }
 
 .brand-logo {
   display: block;
-  height: 432px;
+  height: 72px;
   width: auto;
-  max-width: 480px;
+  max-width: 100%;
   object-fit: contain;
   object-position: left center;
 }
@@ -135,11 +137,14 @@ img {
 
 @media (max-width: 768px) {
   .header-content {
-    padding: 4px 0;
+    padding: 6px 0;
+  }
+  .brand {
+    max-height: 64px;
   }
   .brand-logo {
-    height: 336px;
-    max-width: 360px;
+    height: 56px;
+    max-width: 100%;
   }
 }
 
