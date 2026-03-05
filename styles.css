@@ -580,6 +580,16 @@ h2 {
   object-fit: contain;
 }
 
+.gallery-image--centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gallery-image--centered img {
+  object-position: center;
+}
+
 .gallery-labels {
   display: flex;
   justify-content: center;
