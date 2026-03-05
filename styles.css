@@ -546,6 +546,14 @@ h2 {
   display: block;
 }
 
+.gallery-image--single {
+  height: 200px;
+}
+
+.gallery-card--single .gallery-image--single {
+  margin-bottom: 12px;
+}
+
 .gallery-note {
   margin-top: 20px;
   color: var(--slate);
