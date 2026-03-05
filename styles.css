@@ -545,7 +545,7 @@ h2 {
   background: var(--white);
   border: 1px solid var(--line);
   border-radius: 18px;
-  padding: 18px;
+  padding: 12px;
   color: var(--slate);
 }
 
@@ -569,11 +569,11 @@ h2 {
 }
 
 .gallery-image--single {
-  height: 200px;
+  height: 240px;
 }
 
 .gallery-card--single .gallery-image--single {
-  margin-bottom: 12px;
+  margin-bottom: 10px;
 }
 
 .gallery-image--contain img {
@@ -613,7 +613,7 @@ h2 {
 
 .gallery-images--pair {
   grid-template-columns: 1fr 1fr;
-  height: 200px;
+  height: 240px;
 }
 
 .gallery-images img {
