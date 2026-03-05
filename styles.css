@@ -112,15 +112,13 @@ img {
   text-decoration: none;
   color: inherit;
   align-self: center;
-  overflow: hidden;
-  max-height: 80px;
 }
 
 .brand-logo {
   display: block;
-  height: 72px;
+  height: 216px;
   width: auto;
-  max-width: 320px;
+  max-width: 450px;
   object-fit: contain;
   object-position: left center;
 }
@@ -136,12 +134,9 @@ img {
 }
 
 @media (max-width: 768px) {
-  .brand {
-    max-height: 64px;
-  }
   .brand-logo {
-    height: 56px;
-    max-width: 240px;
+    height: 168px;
+    max-width: 320px;
   }
 }
 
