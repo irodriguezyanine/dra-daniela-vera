@@ -3,14 +3,14 @@
   --white: #ffffff;
   --ink: #2c2419;
   --slate: #5c5246;
-  --muted: #f8f6f4;
+  --muted: #f5eac8;
   --accent: #b79b76;
   --accent-dark: #9a8260;
   --calipso: #8b7355;
   --calipso-light: #a08b6b;
-  --line: #eae6e1;
-  --beige-subtle: #ebe6e1;
-  --beige-bg: #f5f2ee;
+  --line: #e8e0c4;
+  --beige-subtle: #ede4c8;
+  --beige-bg: #f5eac8;
   --shadow: 0 20px 50px rgba(44, 36, 25, 0.08);
   --tooth-tile: url("assets/dientes-patron.png");
   --tooth-tile-size: 400px;
@@ -314,7 +314,7 @@ h2 {
 .hero-image {
   aspect-ratio: 3 / 4;
   border-radius: 18px;
-  background: linear-gradient(160deg, #e8e2dc 0%, #f5f2ee 100%);
+  background: linear-gradient(160deg, #ede4c8 0%, var(--beige-bg) 100%);
   overflow: hidden;
 }
 
@@ -625,7 +625,7 @@ h2 {
 
 .study-card--ongoing {
   border-left: 3px solid var(--accent);
-  background: linear-gradient(135deg, #faf8f6 0%, var(--beige-bg) 100%);
+  background: linear-gradient(135deg, #faf6ed 0%, var(--beige-bg) 100%);
 }
 
 .study-card--ongoing .study-year {
