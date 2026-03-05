@@ -177,19 +177,7 @@ img {
   overflow: hidden;
 }
 
-.hero::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background-image: var(--tooth-tile);
-  background-size: var(--tooth-tile-size);
-  background-repeat: repeat;
-  background-position: 0 0;
-  opacity: var(--tooth-opacity);
-  pointer-events: none;
-  z-index: 0;
-}
-
+.hero::before,
 .hero::after {
   content: none;
 }
@@ -348,20 +336,7 @@ h2 {
 #tratamientos::before,
 #horario::before,
 #metodos-pago::before,
-#contacto::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background-image: var(--tooth-tile);
-  background-size: var(--tooth-tile-size);
-  background-repeat: repeat;
-  background-position: 0 0;
-  opacity: var(--tooth-opacity);
-  pointer-events: none;
-  z-index: 0;
-  animation: tooth-drift 28s linear infinite;
-}
-
+#contacto::before,
 #sobre-mi::after,
 #tratamientos::after,
 #horario::after,
