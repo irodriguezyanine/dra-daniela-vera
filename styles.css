@@ -12,8 +12,9 @@
   --beige-subtle: #ebe6e1;
   --beige-bg: #f5f2ee;
   --shadow: 0 20px 50px rgba(44, 36, 25, 0.08);
-  --tooth-tile: url("assets/diente-feliz.png");
-  --tooth-tile-size: 140px;
+  --tooth-tile: url("assets/dientes-patron.png");
+  --tooth-tile-size: 120px;
+  --tooth-opacity: 0.14;
 }
 
 *,
@@ -177,8 +178,7 @@ img {
   overflow: hidden;
 }
 
-.hero::before,
-.hero::after {
+.hero::before {
   content: "";
   position: absolute;
   inset: 0;
@@ -186,13 +186,9 @@ img {
   background-size: var(--tooth-tile-size);
   background-repeat: repeat;
   background-position: 0 0;
-  opacity: 0.22;
+  opacity: var(--tooth-opacity);
   pointer-events: none;
   z-index: 0;
-}
-
-.hero::before {
-  content: "";
 }
 
 .hero::after {
@@ -359,7 +355,7 @@ h2 {
   background-size: var(--tooth-tile-size);
   background-repeat: repeat;
   background-position: 0 0;
-  opacity: 1;
+  opacity: var(--tooth-opacity);
   pointer-events: none;
   z-index: 0;
   animation: tooth-drift 28s linear infinite;
@@ -573,23 +569,6 @@ h2 {
 .faq-item h3 {
   margin-top: 0;
   color: var(--ink);
-}
-
-.about-teeth-decor {
-  width: 100%;
-  margin-top: 32px;
-  padding-top: 24px;
-  pointer-events: none;
-  opacity: 0.2;
-}
-
-.about-teeth-decor img {
-  width: 100%;
-  height: auto;
-  display: block;
-  object-fit: cover;
-  object-position: center;
-  max-height: 180px;
 }
 
 .about-grid {
