@@ -196,9 +196,15 @@ img {
 
 .hero-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: 1fr;
   gap: 48px;
   align-items: center;
+  text-align: center;
+}
+
+.hero-text {
+  max-width: 720px;
+  margin: 0 auto;
 }
 
 .eyebrow {
