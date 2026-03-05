@@ -576,6 +576,35 @@ h2 {
   margin-bottom: 12px;
 }
 
+.gallery-card--full {
+  grid-column: 1 / -1;
+}
+
+.gallery-image--full {
+  height: auto;
+  min-height: 180px;
+}
+
+.gallery-image--full img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  display: block;
+}
+
+.gallery-labels {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 12px;
+  font-weight: 600;
+  color: var(--accent-dark);
+}
+
+.gallery-label {
+  font-size: 0.95rem;
+}
+
 .gallery-images {
   display: grid;
   gap: 10px;
