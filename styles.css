@@ -575,6 +575,23 @@ h2 {
   color: var(--ink);
 }
 
+.about-teeth-decor {
+  width: 100%;
+  margin-top: 32px;
+  padding-top: 24px;
+  pointer-events: none;
+  opacity: 0.2;
+}
+
+.about-teeth-decor img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+  max-height: 180px;
+}
+
 .about-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
