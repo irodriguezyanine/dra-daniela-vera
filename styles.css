@@ -112,17 +112,17 @@ img {
   text-decoration: none;
   color: inherit;
   align-self: center;
+  overflow: hidden;
+  max-height: 56px;
 }
 
 .brand-logo {
   display: block;
-  height: 72px;
+  height: 48px;
   width: auto;
-  max-width: 420px;
+  max-width: 200px;
   object-fit: contain;
   object-position: left center;
-  transform: scale(2.5);
-  transform-origin: left center;
 }
 
 .brand-fallback {
@@ -136,11 +136,12 @@ img {
 }
 
 @media (max-width: 768px) {
+  .brand {
+    max-height: 48px;
+  }
   .brand-logo {
-    height: 64px;
-    max-width: 360px;
-    transform: scale(2.5);
-    transform-origin: left center;
+    height: 40px;
+    max-width: 160px;
   }
 }
 
