@@ -184,7 +184,19 @@ img {
   overflow: hidden;
 }
 
-.hero::before,
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: var(--tooth-tile);
+  background-size: var(--tooth-tile-size);
+  background-repeat: repeat;
+  background-position: 0 0;
+  opacity: 0.2;
+  pointer-events: none;
+  z-index: 0;
+}
+
 .hero::after {
   content: none;
 }
@@ -205,6 +217,11 @@ img {
 .hero-text {
   max-width: 720px;
   margin: 0 auto;
+}
+
+.hero .lead {
+  font-size: 1rem;
+  margin-bottom: 24px;
 }
 
 .eyebrow {
