@@ -115,18 +115,11 @@ img {
 }
 
 .brand-logo {
-  display: block;
-  height: 72px;
-  width: auto;
-  max-width: 420px;
-  object-fit: contain;
-  object-position: left center;
-  transform: scale(2.5);
-  transform-origin: left center;
+  display: none;
 }
 
 .brand-fallback {
-  display: none;
+  display: flex;
   flex-direction: column;
   gap: 4px;
 }
@@ -137,10 +130,7 @@ img {
 
 @media (max-width: 768px) {
   .brand-logo {
-    height: 64px;
-    max-width: 360px;
-    transform: scale(2.5);
-    transform-origin: left center;
+    display: none;
   }
 }
 
