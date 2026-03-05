@@ -576,20 +576,8 @@ h2 {
   margin-bottom: 12px;
 }
 
-.gallery-card--full {
-  grid-column: 1 / -1;
-}
-
-.gallery-image--full {
-  height: auto;
-  min-height: 180px;
-}
-
-.gallery-image--full img {
-  width: 100%;
-  height: auto;
+.gallery-image--contain img {
   object-fit: contain;
-  display: block;
 }
 
 .gallery-labels {
