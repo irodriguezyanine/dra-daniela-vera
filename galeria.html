@@ -79,7 +79,7 @@
           </div>
           <div class="gallery-grid">
             <div class="gallery-card gallery-card--single">
-              <div class="gallery-image gallery-image--single gallery-image--contain">
+              <div class="gallery-image gallery-image--single gallery-image--contain gallery-image--clickable">
                 <img src="assets/antes-despues.png" alt="Antes y después - Caso clínico dental" />
               </div>
               <div class="gallery-labels">
@@ -89,36 +89,36 @@
             </div>
             <div class="gallery-card gallery-card--single">
               <div class="gallery-images gallery-images--pair">
-                <img src="assets/caso-antes-1.png" alt="Carillas directas - Antes" />
-                <img src="assets/caso-despues-1.png" alt="Carillas directas - Después" />
+                <img src="assets/caso-antes-1.png" alt="Carillas directas - Antes" class="gallery-img-clickable" />
+                <img src="assets/caso-despues-1.png" alt="Carillas directas - Después" class="gallery-img-clickable" />
               </div>
               <span>Carillas directas</span>
             </div>
             <div class="gallery-card gallery-card--single">
               <div class="gallery-images gallery-images--pair">
-                <img src="assets/limpieza-antes.jpg" alt="Limpieza dental profunda - Antes" />
-                <img src="assets/limpieza-despues.jpg" alt="Limpieza dental profunda - Después" />
+                <img src="assets/limpieza-antes.jpg" alt="Limpieza dental profunda - Antes" class="gallery-img-clickable" />
+                <img src="assets/limpieza-despues.jpg" alt="Limpieza dental profunda - Después" class="gallery-img-clickable" />
               </div>
               <span>Limpieza dental profunda</span>
             </div>
             <div class="gallery-card gallery-card--single">
               <div class="gallery-images gallery-images--pair">
-                <img src="assets/gingival-antes.jpg" alt="Tratamiento gingival - Antes" />
-                <img src="assets/gingival-despues.jpg" alt="Tratamiento gingival - Después" />
+                <img src="assets/gingival-antes.jpg" alt="Tratamiento gingival - Antes" class="gallery-img-clickable" />
+                <img src="assets/gingival-despues.jpg" alt="Tratamiento gingival - Después" class="gallery-img-clickable" />
               </div>
               <span>Tratamiento gingival</span>
             </div>
             <div class="gallery-card gallery-card--single">
               <div class="gallery-images gallery-images--pair">
-                <img src="assets/rehabilitacion-antes.jpg" alt="Rehabilitación oral - Antes" />
-                <img src="assets/rehabilitacion-despues.jpg" alt="Rehabilitación oral - Después" />
+                <img src="assets/rehabilitacion-antes.jpg" alt="Rehabilitación oral - Antes" class="gallery-img-clickable" />
+                <img src="assets/rehabilitacion-despues.jpg" alt="Rehabilitación oral - Después" class="gallery-img-clickable" />
               </div>
               <span>Rehabilitación oral</span>
             </div>
             <div class="gallery-card gallery-card--single">
               <div class="gallery-images gallery-images--pair">
-                <img src="assets/brackets-antes.jpg" alt="Retiro de brackets - Antes" />
-                <img src="assets/brackets-despues.jpg" alt="Retiro de brackets - Después" />
+                <img src="assets/brackets-antes.jpg" alt="Retiro de brackets - Antes" class="gallery-img-clickable" />
+                <img src="assets/brackets-despues.jpg" alt="Retiro de brackets - Después" class="gallery-img-clickable" />
               </div>
               <span>Retiro de brackets</span>
             </div>
@@ -207,6 +207,14 @@
       <a class="btn btn-primary sidebar-whatsapp" href="https://wa.me/56956879363?text=Hola%20Dra.%20Daniela%2C%20quisiera%20agendar%20una%20hora." target="_blank" rel="noopener">Agenda por WhatsApp</a>
     </aside>
 
+    <div class="lightbox" id="lightbox" aria-hidden="true">
+      <button class="lightbox-close" type="button" aria-label="Cerrar">&times;</button>
+      <div class="lightbox-content">
+        <img src="" alt="" class="lightbox-img" id="lightboxImg" draggable="false" />
+      </div>
+    </div>
+
     <script src="script.js"></script>
+    <script src="galeria.js"></script>
   </body>
 </html>
