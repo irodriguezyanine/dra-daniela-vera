@@ -116,9 +116,9 @@ img {
 
 .brand-logo {
   display: block;
-  height: 72px;
+  height: 432px;
   width: auto;
-  max-width: 320px;
+  max-width: 480px;
   object-fit: contain;
   object-position: left center;
 }
@@ -138,8 +138,8 @@ img {
     padding: 4px 0;
   }
   .brand-logo {
-    height: 56px;
-    max-width: 240px;
+    height: 336px;
+    max-width: 360px;
   }
 }
 
